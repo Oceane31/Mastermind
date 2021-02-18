@@ -6,7 +6,7 @@ public class Mastermind {
 		// TODO Auto-generated method stub
 		Modèle m=new Modèle();
 		Contrôleur c = new Contrôleur(m);
-		Vue v= new Vue(m,c);
+		Vue v= new Vue(m,c); 
 
 	}
 

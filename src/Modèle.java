@@ -1,8 +1,9 @@
+import java.awt.Color;
 
 public class Modèle {
-	int couleurs[];
-	int n_tentatives;
-	int difficulté;
+	Color[] couleurs;
+	int n_tentatives=10;
+	int difficulté=4;
 	enum états {EN_COURS,GAGNE,PERDU};
 	
 
